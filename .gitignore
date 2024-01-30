@@ -1,0 +1,15 @@
+# Dependency directories
+/node_modules
+
+# Build artifacts
+/build
+/dist
+
+# IDE and text editor files
+/.idea
+/.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
