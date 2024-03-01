@@ -1,14 +1,17 @@
 {
   "name": "@ignite-ui/docs",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "dev": "storybook dev -p 6006",
     "build": "storybook build"
   },
   "dependencies": {
+    "@ignite-ui/react": "*",
+    "@ignite-ui/tokens": "*",
+    "@ignite-ui/eslint-config": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
